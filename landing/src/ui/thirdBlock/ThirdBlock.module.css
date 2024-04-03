@@ -1,0 +1,47 @@
+.title {
+    font-size: 2.5rem;
+    font-family: "Onest", sans-serif;
+
+    font-weight:  bold;
+    color: #FF504E;
+}
+
+.cards_block {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+}
+
+.card {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card__text {
+    font-family: "IBM Plex Mono", monospace;
+    color: #FF504E;
+    text-align: center;
+}
+
+.footer__button {
+    font-weight: lighter;
+    color: #FF504E;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+@media screen and (max-width:700px) {
+    .cards_block {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .title {
+        font-size: 1.8rem;
+    }
+    @media screen and (max-width:425px) {
+        .title {
+            font-size: 1.4rem;
+        }
+    }
+}

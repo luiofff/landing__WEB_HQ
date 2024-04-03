@@ -1,0 +1,52 @@
+.text__block {
+    width: 100%;
+    padding-left: 4rem;
+    color: #FF504E;
+    font-family: "IBM Plex Mono", monospace;
+
+    font-size: 1rem;
+}
+
+.p__text {
+    width: 50%;
+}
+
+.image__block {
+    width: 100%;
+    height: auto;
+
+    display: grid;
+    place-items: center;
+}
+
+.soldat_image {
+    width: 100%;
+    height: auto;
+    background-image: url("./Soldiers\ 1.png");
+}
+
+@media screen and (max-width:900px) {
+    .p__text {
+        width: 70%;
+        font-size: .7rem;
+    }
+
+    .text__block  {
+        padding:0 1rem;
+    }
+
+    @media screen and (max-width:555px) {
+        .p__text {
+            width: 90%;
+        }
+
+        @media screen and (max-width:555px) {
+            .text__block  {
+                padding: 0 1rem;
+            }
+            .p__text {
+                font-size: .5rem;
+            }
+        }
+    }
+}

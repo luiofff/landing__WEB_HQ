@@ -1,0 +1,51 @@
+.top__part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 4rem;
+}
+
+
+
+.footer_col {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+
+    color: #FF504E;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.col_list {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    
+}
+
+.col_string {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:710px) {
+    .logo {
+        width: 100px;
+        height: 110px;
+    }
+
+    .col_string {
+        font-size: .7rem;
+    }
+    
+    .top__part {
+        display: grid;
+        grid-template-columns: 2fr;
+        padding: 0 4rem;
+    }
+    
+    .logo {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 1;
+      }
+}

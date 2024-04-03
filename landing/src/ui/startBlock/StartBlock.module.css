@@ -1,0 +1,140 @@
+.line_block {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.main__block__mobile  {
+    display: none;
+}
+
+
+
+.line {
+    width: 90%;
+}
+
+.line_bottom{
+    width: 90%;
+    transform: rotate(180deg);
+}
+
+.main__block {
+    height: 70vh;
+    width: 100%;
+
+    display: flex;
+}
+
+.card {
+    width: 322px;
+    height: 206px;
+    transform: rotate(-40deg);
+}
+
+.main__block___leftSide {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.main__block___rigthSide {
+    height: 100%;
+    width: 50%;
+
+    display: grid;
+    place-items: center;
+}
+
+.title_text {
+    font-size: 2rem;
+    font-family: "Onest", sans-serif;
+    font-weight: 600;
+    color: #FF504E;
+    
+}
+
+.text__block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.preTitle {
+    font-family: "Onest", sans-serif;
+
+    color: #FF504E;
+}
+
+
+@media screen and (max-width:1075px) {
+    .title_text {
+        font-size: 1.7rem;
+        font-family: "Onest", sans-serif;
+        font-weight: 600;
+        color: #FF504E;
+        
+    }
+    .card {
+        width: 302px;
+        height:   186px;
+        transform: rotate(-40deg);
+    }
+
+    @media screen and (max-width:920px) {
+        .title_text {
+            font-size: 1.5rem;
+            font-family: "Onest", sans-serif;
+            font-weight: 600;
+            color: #FF504E;
+            
+        }
+
+        .card {
+            width: 282px;
+            height:   166px;
+            transform: rotate(-40deg);
+        }
+        .preTitle {
+            font-family: "Onest", sans-serif;
+            font-size: .8rem;
+            color: #FF504E;
+        }
+
+        @media screen and (max-width:810px) {
+            .title_text {
+                font-size: 1.3rem;
+                font-family: "Onest", sans-serif;
+                font-weight: 600;
+                color: #FF504E;
+                
+            }
+    
+            .card {
+                width: 262px;
+                height:   146px;
+                transform: rotate(-40deg);
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:700px)  {
+    .main__block {
+        display: none;
+    }
+
+    .main__block__mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        height: 80vh;
+    }
+}

@@ -1,0 +1,55 @@
+.title {
+    font-size: 2.5rem;
+    font-family: "Onest", sans-serif;
+
+    font-weight:  bold;
+    color: #FF504E;
+}
+
+.list_block {
+    display: flex;
+    flex-direction: column;
+    padding: 0 4rem;
+    gap: 2.7rem;
+    height: auto;
+}
+
+.list_elem {
+    display: flex;
+    flex-direction: column;
+    font-family: "Onest", sans-serif;
+    gap: 1rem;
+}
+
+.pretitle {
+    color: #531C1E;
+    font-size: 1rem;
+}
+
+.title__list {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #FF504E;
+}
+
+.footer__button {
+    font-weight: lighter;
+    color: #FF504E;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+
+@media screen and (max-width:700px) {
+    .title {
+        font-size: 1.8rem;
+    }
+
+    @media screen and (max-width:425px) {
+        .title {
+            font-size: 1.4rem;
+        }
+        .title__list {
+            font-size: 1.1rem;
+        }
+    }
+}
