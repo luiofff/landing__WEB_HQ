@@ -69,8 +69,29 @@
   }
 
 
+  .navBlock {
+    width: 30%;
+    display: flex;
+  }
+
+  .navBlock:first-child {
+    justify-content: start;
+  }
+
+  .navBlock:nth-child(2) {
+    justify-content: center;
+  }
+
+  .navBlock:last-child {
+    justify-content: end;
+  }
+
   @media screen and (max-width: 700px) {
-        .enter_btn {
+        .navBlock:last-child {
             display: none;
+        }
+
+        .navBlock:nth-child(2) {
+          justify-content: end;
         }
   }
