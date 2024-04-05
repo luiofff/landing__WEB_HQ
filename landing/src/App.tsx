@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import { Routes,Route } from 'react-router-dom';
 
 import MainPage from './pages/MainPage/MainPage';
 import SecondPage from './pages/SecondPage/SecondPage';
@@ -9,7 +9,11 @@ import SecondPage from './pages/SecondPage/SecondPage';
 function App() {
   return (
     <div className="App">
-       <SecondPage />
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/set" element={ <SecondPage />} />
+        </Routes>
+     
     </div>
   );
 }
