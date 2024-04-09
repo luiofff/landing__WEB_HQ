@@ -48,13 +48,7 @@
     place-items: center;
 }
 
-.title_text {
-    font-size: 2rem;
-    font-family: "Onest", sans-serif;
-    font-weight: 600;
-    color: #FF504E;
-    
-}
+
 
 .text__block {
     width: 100%;
@@ -71,14 +65,12 @@
 }
 
 
+.title {
+    width: 140%;
+}
+
 @media screen and (max-width:1075px) {
-    .title_text {
-        font-size: 1.7rem;
-        font-family: "Onest", sans-serif;
-        font-weight: 600;
-        color: #FF504E;
-        
-    }
+    
     .card {
         width: 302px;
         height:   186px;
