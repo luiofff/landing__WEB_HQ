@@ -11,13 +11,18 @@ import Footer from "./ui/footer/Footer"
 export default function MainPage() {
     return (
         <>
-            <Navbar />
-            <StartBlock />
-            <SecondBlock />
-            <ThirdBlock />
-            <FourBlock />
-            <FiveBlock />
-            <Footer />
+           
+            <main  style={{ width: "100%", display: "grid", placeItems: "center" }}>
+                <div style={{ maxWidth: "1920px" }}>
+                    <Navbar />
+                    <StartBlock />
+                    <SecondBlock />
+                    <ThirdBlock />
+                    <FourBlock />
+                    <FiveBlock />
+                    <Footer />
+                </div>
+            </main>
         </>
     )
 }

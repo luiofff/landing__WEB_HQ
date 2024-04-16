@@ -1,7 +1,8 @@
+
 .title {
     color: #FF504E;
     font-family: "Onest", sans-serif;
-    font-size: 2.6rem;
+    font-size: 4rem;
     font-weight: bold;
 }
 
@@ -42,7 +43,7 @@
 .text_block {
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    gap: 2rem
 }
 
 .card_img_block {
@@ -52,7 +53,7 @@
 }
 
 .card {
-    width: 320px;
+    width: 60%;
 }
 
 .title_elem {
@@ -61,7 +62,9 @@
     font-family: 'Onest', sans-serif;
 }
 
+
 .p {
+    font-size: 22px;
     font-family: "IBM Plex Mono", monospace;
 }
 
@@ -110,6 +113,11 @@
         }
         .card {
             width: 210px;
+        }
+        
+        .p {
+            font-size: 18px;
+            font-family: "IBM Plex Mono", monospace;
         }
     }
 }

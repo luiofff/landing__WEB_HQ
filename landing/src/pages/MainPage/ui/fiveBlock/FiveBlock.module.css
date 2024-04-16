@@ -23,16 +23,17 @@
 }
 
 .title {
-    color: #FF504E;
     font-size: 2.5rem;
     font-family: "Onest", sans-serif;
+
+    font-weight:  bold;
+    color: #FF504E;
 }
 
 .pretitle {
     color: #FF504E;
-    font-size: 1.4rem;
-    font-weight: lighter;
-    font-family: "Onest", sans-serif;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 2rem;
 }
 
 @media screen and (max-width:400px) {

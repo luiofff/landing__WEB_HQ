@@ -19,16 +19,28 @@
     flex-direction: column;
     font-family: "Onest", sans-serif;
     gap: 1rem;
+
 }
 
 .pretitle {
     color: #531C1E;
     font-size: 1rem;
+
 }
 
 .title__list {
+    width: auto;
     font-size: 1.4rem;
     font-weight: 500;
+    color: #FF504E;
+}
+
+.list_elem:hover {
+    box-shadow: inset 1px 1px 100px 2px #630215;
+}
+
+.list_elem:hover .pretitle {
+
     color: #FF504E;
 }
 

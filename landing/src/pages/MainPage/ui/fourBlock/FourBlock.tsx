@@ -9,7 +9,7 @@ const FourBlock = () => {
     return (
         <>
             <div style={{ height: "10vh", width: "100%", display: "flex", justifyContent: "center" }}>
-                <h1 className={styles.title}>ИГРОВОЙ КОМПЛЕКТ</h1>
+                <h1 className={styles.title}>ПОСЛЕДНИЕ РЕЛИЗЫ</h1>
             </div>
 
             <div className={styles.list_block}>

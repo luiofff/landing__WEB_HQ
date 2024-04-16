@@ -48,7 +48,7 @@ const ThirdBlock = () => {
                         </div>
                         
                         <div className={styles.text_part}>
-                            <h1 className={styles.title_elem}>работает до 4-Х ДНЕЙ</h1>
+                            <h1 className={styles.title_elem}>РАБОТАЕТ ДО 4-Х ДНЕЙ</h1>
                             <p className={styles.p}>Встроенного аккумулятора с большим ресурсом хватит чтобы питать всю электронику продолжительное время</p>
                         </div>
                         

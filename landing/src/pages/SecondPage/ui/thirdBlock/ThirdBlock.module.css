@@ -25,7 +25,7 @@
 .text_block {
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    gap: 2rem;
 }
 
 .card_img_block {
@@ -44,7 +44,9 @@
     font-family: 'Onest', sans-serif;
 }
 
+
 .p {
+    font-size: 22px;
     font-family: "IBM Plex Mono", monospace;
 }
 
@@ -81,7 +83,7 @@
 .text_part {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 
@@ -115,6 +117,11 @@
     }
 
     @media screen and (max-width:420px) {
+        
+        .p {
+            font-size: 18px;
+            font-family: "IBM Plex Mono", monospace;
+        }
         .title_elem {
             font-size: 1.2rem;
         }
