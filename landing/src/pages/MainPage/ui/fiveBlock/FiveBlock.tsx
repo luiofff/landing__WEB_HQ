@@ -27,14 +27,10 @@ const FiveBlock = () => {
                         <div className={styles.input_component}>
                             <h1 className={styles.input_title}>Кто вы?</h1>
                             <fieldset className={styles.checkbox}>
-                        
-                                <div>
+                            <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                            
-                                        <span className={styles.check__text}>
-                                        Организация
-                                        </span>
+                                        <span className={styles.check__text}>ОРГАНИЗАЦИЯ</span>
                                     </label>
                                 
                                 </div>
@@ -42,12 +38,7 @@ const FiveBlock = () => {
                                 <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                        <svg viewBox="0 0 64 64" height="2em" width="2em">
-                                            <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" className={styles.path}></path>
-                                        </svg>
-                                        <span className={styles.check__text}>
-                                        Физическое лицо
-                                        </span>
+                                        <span className={styles.check__text}>ФИЗИЧЕСКОЕ ЛИЦО</span>
                                     </label>
                                 
                                 </div>
@@ -55,12 +46,7 @@ const FiveBlock = () => {
                                 <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                        <svg viewBox="0 0 64 64" height="2em" width="2em">
-                                            <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" className={styles.path}></path>
-                                        </svg>
-                                        <span className={styles.check__text}>
-                                        Спортивное объединение
-                                        </span>
+                                        <span className={styles.check__text}>СПОРТИВНОЕ ОБЪЕДИНЕНИЕ</span>
                                     </label>
                                 
                                 </div>
@@ -68,12 +54,7 @@ const FiveBlock = () => {
                                 <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                        <svg viewBox="0 0 64 64" height="2em" width="2em">
-                                            <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" className={styles.path}></path>
-                                        </svg>
-                                        <span className={styles.check__text}>
-                                        Государственная структура
-                                        </span>
+                                        <span className={styles.check__text}>ГОСУДАРСТВЕННАЯ СТРУКТУРА</span>
                                     </label>
                                 
                                 </div>
@@ -83,16 +64,10 @@ const FiveBlock = () => {
                             <h1 className={styles.input_title}>Тема обращения</h1>
                             <fieldset className={styles.checkbox}>
        
-
-                                <div>
+                            <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                        <svg viewBox="0 0 64 64" height="2em" width="2em">
-                                            <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" className={styles.path}></path>
-                                        </svg>
-                                        <span className={styles.check__text}>
-                                        Сотрудничество
-                                        </span>
+                                        <span className={styles.check__text}>СОТРУДНИЧЕСТВО</span>
                                     </label>
                                 
                                 </div>
@@ -100,12 +75,7 @@ const FiveBlock = () => {
                                 <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                        <svg viewBox="0 0 64 64" height="2em" width="2em">
-                                            <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" className={styles.path}></path>
-                                        </svg>
-                                        <span className={styles.check__text}>
-                                        Продукция
-                                        </span>
+                                        <span className={styles.check__text}>ПРОДУКЦИЯ</span>
                                     </label>
                                 
                                 </div>
@@ -113,12 +83,7 @@ const FiveBlock = () => {
                                 <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                        <svg viewBox="0 0 64 64" height="2em" width="2em">
-                                            <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" className={styles.path}></path>
-                                        </svg>
-                                        <span className={styles.check__text}>
-                                        Предложения по функционалу
-                                        </span>
+                                        <span className={styles.check__text}>ПРЕДЛОЖЕНИЯ ПО ФУНКЦИОНАЛУ</span>
                                     </label>
                                 
                                 </div>
@@ -126,12 +91,7 @@ const FiveBlock = () => {
                                 <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                        <svg viewBox="0 0 64 64" height="2em" width="2em">
-                                            <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" className={styles.path}></path>
-                                        </svg>
-                                        <span className={styles.check__text}>
-                                        Другое
-                                        </span>
+                                        <span className={styles.check__text}>ДРУГОЕ</span>
                                     </label>
                                 
                                 </div>
@@ -158,12 +118,7 @@ const FiveBlock = () => {
                                 <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                        <svg viewBox="0 0 64 64" height="2em" width="2em">
-                                            <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" className={styles.path}></path>
-                                        </svg>
-                                        <span className={styles.check__text}>
-                                        Организация
-                                        </span>
+                                        <span className={styles.check__text}>ОРГАНИЗАЦИЯ</span>
                                     </label>
                                 
                                 </div>
@@ -171,12 +126,7 @@ const FiveBlock = () => {
                                 <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                        <svg viewBox="0 0 64 64" height="2em" width="2em">
-                                            <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" className={styles.path}></path>
-                                        </svg>
-                                        <span className={styles.check__text}>
-                                        Физическое лицо
-                                        </span>
+                                        <span className={styles.check__text}>ФИЗИЧЕСКОЕ ЛИЦО</span>
                                     </label>
                                 
                                 </div>
@@ -184,12 +134,7 @@ const FiveBlock = () => {
                                 <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                        <svg viewBox="0 0 64 64" height="2em" width="2em">
-                                            <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" className={styles.path}></path>
-                                        </svg>
-                                        <span className={styles.check__text}>
-                                        Спортивное объединение
-                                        </span>
+                                        <span className={styles.check__text}>СПОРТИВНОЕ ОБЪЕДИНЕНИЕ</span>
                                     </label>
                                 
                                 </div>
@@ -197,12 +142,7 @@ const FiveBlock = () => {
                                 <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                        <svg viewBox="0 0 64 64" height="2em" width="2em">
-                                            <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" className={styles.path}></path>
-                                        </svg>
-                                        <span className={styles.check__text}>
-                                        Государственная структура
-                                        </span>
+                                        <span className={styles.check__text}>ГОСУДАРСТВЕННАЯ СТРУКТУРА</span>
                                     </label>
                                 
                                 </div>
@@ -226,12 +166,7 @@ const FiveBlock = () => {
                                 <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                        <svg viewBox="0 0 64 64" height="2em" width="2em">
-                                            <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" className={styles.path}></path>
-                                        </svg>
-                                        <span className={styles.check__text}>
-                                        Сотрудничество
-                                        </span>
+                                        <span className={styles.check__text}>СОТРУДНИЧЕСТВО</span>
                                     </label>
                                 
                                 </div>
@@ -239,12 +174,7 @@ const FiveBlock = () => {
                                 <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                        <svg viewBox="0 0 64 64" height="2em" width="2em">
-                                            <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" className={styles.path}></path>
-                                        </svg>
-                                        <span className={styles.check__text}>
-                                        Продукция
-                                        </span>
+                                        <span className={styles.check__text}>ПРОДУКЦИЯ</span>
                                     </label>
                                 
                                 </div>
@@ -252,12 +182,7 @@ const FiveBlock = () => {
                                 <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                        <svg viewBox="0 0 64 64" height="2em" width="2em">
-                                            <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" className={styles.path}></path>
-                                        </svg>
-                                        <span className={styles.check__text}>
-                                        Предложения по функционалу
-                                        </span>
+                                        <span className={styles.check__text}>ПРЕДЛОЖЕНИЯ ПО ФУНКЦИОНАЛУ</span>
                                     </label>
                                 
                                 </div>
@@ -265,12 +190,7 @@ const FiveBlock = () => {
                                 <div>
                                     <label className={styles.container}>
                                         <input type="checkbox" className={styles.input_check}/>
-                                        <svg viewBox="0 0 64 64" height="2em" width="2em">
-                                            <path d="M 0 16 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 16 L 32 48 L 64 16 V 8 A 8 8 90 0 0 56 0 H 8 A 8 8 90 0 0 0 8 V 56 A 8 8 90 0 0 8 64 H 56 A 8 8 90 0 0 64 56 V 16" pathLength="575.0541381835938" className={styles.path}></path>
-                                        </svg>
-                                        <span className={styles.check__text}>
-                                        Другое
-                                        </span>
+                                        <span className={styles.check__text}>ДРУГОЕ</span>
                                     </label>
                                 
                                 </div>
