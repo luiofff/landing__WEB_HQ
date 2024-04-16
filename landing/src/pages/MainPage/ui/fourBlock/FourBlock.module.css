@@ -46,6 +46,9 @@
 
 .footer__button {
     font-weight: lighter;
+
+    text-decoration: underline;
+
     color: #FF504E;
     font-family: "IBM Plex Mono", monospace;
 }

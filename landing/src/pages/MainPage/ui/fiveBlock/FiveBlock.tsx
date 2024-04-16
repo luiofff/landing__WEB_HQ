@@ -6,9 +6,9 @@ const FiveBlock = () => {
     return (
         <>
             <div className={styles.line_block}>
-                    <svg xmlns="http://www.w3.org/2000/svg" className={styles.line} viewBox="0 0 1362 37" fill="none">
+                <svg xmlns="http://www.w3.org/2000/svg" className={styles.line} viewBox="0 0 1362 37" fill="none">
                         <path d="M1 36L188 1H1151L1361 36" stroke="#8A2C30"/>
-                    </svg>
+                </svg>
             </div>
             <div className={styles.main__block}>
                 <div className={styles.title__block}>
