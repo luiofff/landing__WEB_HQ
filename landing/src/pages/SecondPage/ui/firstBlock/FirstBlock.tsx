@@ -18,7 +18,7 @@ const FirstBlock = () => {
                         <div className={styles.part}>
                             <div className={styles.text_block}>
                                 <h1 className={styles.title_elem}>БЕСКОНТАКТНАЯ КАРТА</h1>
-                                <p className={styles.p}>Безграничная страсть к страйкболу и стремление к улучшению игрового опыта, привели нас к созданию инновационной системы для проведения страйкбольных игр с возможностью верификации и дистанционного отслеживания статистики.</p>
+                                <p className={styles.p}>Инновационное устройство, разработанное специально для участников страйкбола, которое позволяет удобно и безопасно контролировать игровой процесс.</p>
                             </div>
                             <div className={styles.card_img_block}>
                                 <svg xmlns="http://www.w3.org/2000/svg" className={styles.card}  viewBox="0 0 322 206" fill="none">
@@ -32,8 +32,8 @@ const FirstBlock = () => {
                                 <img src={cubercard}  alt="" className={styles.card} />
                             </div>
                             <div className={styles.text_block}>
-                                <h1 className={styles.title_elem}>ЛИЧНЫЙ ИДЕНТИФИКАТОР</h1>
-                                <p className={styles.p}>Безграничная страсть к страйкболу и стремление к улучшению игрового опыта, привели нас к созданию инновационной системы для проведения страйкбольных игр с возможностью верификации и дистанционного отслеживания статистики.</p>
+                                <h1 style={{ textAlign: "right" }} className={styles.title_elem}>ЛИЧНЫЙ ИДЕНТИФИКАТОР</h1>
+                                <p  style={{ textAlign: "right" }}  className={styles.p}>Личный идентификатор предназначен для идентификации каждого участника игры и обеспечения безопасности во время проведения игровых сражений</p>
                             </div>
                             
                         </div>

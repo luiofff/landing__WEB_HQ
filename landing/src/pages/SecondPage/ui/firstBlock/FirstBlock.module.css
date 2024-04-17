@@ -52,6 +52,8 @@
     place-items: center;
 }
 
+
+
 .card {
     width: 60%;
 }
@@ -66,7 +68,11 @@
 .p {
     font-size: 22px;
     font-family: "IBM Plex Mono", monospace;
+
+    text-align: left;
 }
+
+
 
 .line_bottom {
     width: 90%;
@@ -119,5 +125,7 @@
             font-size: 18px;
             font-family: "IBM Plex Mono", monospace;
         }
+
+       
     }
 }

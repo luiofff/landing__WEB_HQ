@@ -14,7 +14,7 @@ const FourBlock = () => {
                 <div className={styles.part}>
                     <div className={styles.text_block}>
                         <h1 className={styles.title_elem}>ВЕБ-ТАБЛИЦА</h1>
-                        <p className={styles.p}>Ударопрочная, начиненная электроникой, которая может автономно считывать и отправлять данные на сервер.</p>
+                        <p className={styles.p}>В таблице можно вести список участников с указанием их позывных, времени входа и выхода, статуса жизни (активный/неактивный) и идентификатора игрока.</p>
                     </div>
                     <div className={styles.card_img_block}>
                         <svg xmlns="http://www.w3.org/2000/svg" className={styles.card} width="191" height="191" viewBox="0 0 191 191" fill="none">
@@ -28,7 +28,7 @@ const FourBlock = () => {
                     </div>
                     <div className={styles.text_block}>
                         <h1 className={styles.title_elem}>СТАТИСТИКА И НЕ ТОЛЬКО</h1>
-                        <p className={styles.p}>Безграничная страсть к страйкболу и стремление к улучшению игрового опыта, привели нас к созданию инновационной системы для проведения страйкбольных игр с возможностью верификации и дистанционного отслеживания статистики.</p>
+                        <p className={styles.p}>Анализируя эти данные, можно выделить лучших игроков и разработать стратегию для более успешных выступлений в будущем.</p>
                     </div>
                     
                 </div>

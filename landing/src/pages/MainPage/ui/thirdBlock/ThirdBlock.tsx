@@ -48,7 +48,7 @@ const ThirdBlock = () => {
                     </svg>
                     <div className={styles.card__text}>
                         <h1>«БАЗА»</h1>
-                        <span>(Для администрирования игры)</span>
+                        <span>(Для считывания бесконтактной карты бойца)</span>
                     </div>
                 </a>
                 <a href="/set" className={styles.card}>
