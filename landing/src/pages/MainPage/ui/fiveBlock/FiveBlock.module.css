@@ -82,12 +82,12 @@
 
     color: #FF504E;
     font-family: "IBM Plex Mono", monospace;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .input::placeholder {
     color: #8A2C30;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 .checkbox {
@@ -163,10 +163,17 @@
     font-family: "IBM Plex Mono", monospace;
     font-weight: bolder;
     width: 14rem;
-    height: 8vh;
+    height: 5rem;
     clip-path: polygon(0% 0%, 100% 0%, 100% 15%, 100% 85%, 100% 100%, 9.8% 100%, 0% 74.5%, 0% 15%);
 }
 
+.check__text {
+    font-size: 1.4rem;
+}
+
+.button:hover {
+    background-color: #D04142;
+}
 
 @media screen and (max-width:920px) {
     .input_title {
@@ -187,11 +194,20 @@
         .input_title {
             font-size: 1.4rem;
         }
+
+        .input_check {
+            height: .9rem;
+            width: .9rem;
+        }
         .check__text {
-            font-size: .7rem;
+            font-size: .9rem;
         }
         .input_component {
             width: 300px;
+        }
+
+        .button {
+            height: 4rem;
         }
     }
 }

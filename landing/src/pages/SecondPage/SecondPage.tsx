@@ -27,7 +27,7 @@ export default function SecondPage() {
                     </div>
                     <FourBlock />
                     <div style={{ width: "100%", height: "10vh", display: "grid", placeItems: "center" }}>
-                        <button style={{ color: "#8A2C30", fontFamily: '"IBM Plex Mono", monospace', textDecoration: "underline" }}>ХОЧУ КУПИТЬ</button>
+                        <a href="/error" style={{ color: "#8A2C30", fontFamily: '"IBM Plex Mono", monospace', textDecoration: "underline" }}>ХОЧУ КУПИТЬ</a>
                     </div>
                     <Footer />
                 </div>

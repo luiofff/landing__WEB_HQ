@@ -1,0 +1,85 @@
+.hero {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+
+.container {
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    max-width: 1920px;
+
+
+
+   
+
+}
+
+
+.container__content {
+    height: 80vh;
+    
+
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: space-between;
+}
+
+.skull_block {
+    display: grid;
+    place-items: center;
+    
+}
+
+
+.skull {
+    height: 40rem;
+    width: 40rem;
+}
+
+
+.title {
+    color: #FF504E;
+    font-weight: 400;
+    font-size: 4rem;
+
+    font-family: "IBM Plex Mono";
+}
+
+.line__block {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    width: 100%;
+}
+
+@media screen and (max-width:780px) {
+    .title {
+        font-size: 3.3rem;
+    }
+
+    @media screen and (max-width:650px) {
+        .title {
+            font-size: 2rem;
+        }
+    
+    }
+
+    @media screen and (max-width:500px) {
+        .title {
+            font-size: 2rem;
+        }
+        .skull {
+            height: 20rem;
+            width: 20rem;
+        }
+    }
+}
